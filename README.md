@@ -1,1 +1,53 @@
-a
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horaire de la Saint-Valentin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffe6e6;
+            margin: 0;
+        }
+        .paper {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: left;
+            line-height: 1.6;
+            position: relative;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .time-slot {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        .heart {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="paper">
+        <div class="title">❤️ Horaire de la Saint-Valentin ❤️</div>
+        <div class="time-slot">17h30 : Je viens te chercher chez toi ! ❤️</div>
+        <div class="time-slot">18h00 : Souper au restaurant en tête à tête ! ❤️</div>
+        <div class="time-slot">19h30 : Surprise ! ❤️</div>
+        <div class="time-slot">21h00 : Je vais te reporter chez toi ! ❤️</div>
+        <div class="time-slot">Je t'aime de tout mon coeur Chloé ! ❤️</div>
+    </div>
+</body>
+</html>
